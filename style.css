@@ -9,12 +9,14 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    height: 100vh;
+    background-color: #fafafa;
     margin: 0;
-    padding: 0;
+    padding: 0 0 30px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .instagram-wrapper {
@@ -41,18 +43,19 @@ body {
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     min-height: 34rem;
 }
 
 .group {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 348px;
+    height: 331px;
+    padding: 15px 0;
     border: 1px solid lightgray;
 }
 
@@ -69,23 +72,31 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    border: solid 1px #efefef;
+    border-radius: 100px;
+    height: 100px;
+    margin: 10px auto 10px;
+    width: 100px;
     overflow: hidden;
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 100%;
+    width: auto;
 }
 
 .instagram-login {
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px;
+    padding: 6px 25px;
     border-radius: 4px;
+    font-weight: 800;
 }
 
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    font-weight: 800;
 }
 
 .not-account {
@@ -127,6 +138,45 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+footer {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-element {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-element .footer-each {
+    flex-grow: 1;
+    color: #8e8e8e;
+}
+
+footer .second {
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+footer .third {
+    width: 25%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #8e8e8e;
+}
+
+footer a div {
+    font-size: 13px;
+}
 /* media queries */
 
 
