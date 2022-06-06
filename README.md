@@ -5,6 +5,9 @@ Nesse projeto você terá o desafio de reconstruir a página de login do Instagr
 
 Dica: você pode dar um "fork" no repositório disponibilizado pela expert para organizar melhor as suas alterações e evoluções, mantendo uma referência direta ao código original.
 
+### Principais auterações feitas:
+Através do código de referencia feito nas aulas, atualizei o código de tal forma que se pareça mais com o estado atual do Instagram e com os meus dados. 
+
 ### implementação de referência:
 
 * [Repositório da expert](https://github.com/SpruceGabriela/instagram-dio)
